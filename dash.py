@@ -255,7 +255,7 @@ if not df_selecionado.empty:
 
     with col1:
         st.markdown(
-            f'<div style="background-color: #FFA500; padding: 16px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">'
+            f'<div style="background-color: #74C940; padding: 16px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">'
             f'<h5 style="color: white; margin: 0; font-weight: normal; font-size: 16px;">Média de Umidade</h5>'
             f'<p style="font-size: 24px; color: white; margin: 0; font-weight: bold; line-height: 1.5;">{media_umidade:.2f} %</p>'
             f'</div>',
@@ -264,7 +264,7 @@ if not df_selecionado.empty:
 
     with col2:
         st.markdown(
-            f'<div style="background-color: #FFA500; padding: 16px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">'
+            f'<div style="background-color: #74C940; padding: 16px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">'
             f'<h5 style="color: white; margin: 0; font-weight: normal; font-size: 16px;">Média de Temperatura</h5>'
             f'<p style="font-size: 24px; color: white; margin: 0; font-weight: bold; line-height: 1.5;">{media_temperatura:.2f} °C</p>'
             f'</div>',
@@ -273,7 +273,7 @@ if not df_selecionado.empty:
 
     with col3:
         st.markdown(
-            f'<div style="background-color: #FFA500; padding: 16px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">'
+            f'<div style="background-color: #74C940; padding: 16px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">'
             f'<h5 style="color: white; margin: 0; font-weight: normal; font-size: 16px;">Média de CO2</h5>'
             f'<p style="font-size: 24px; color: white; margin: 0; font-weight: bold; line-height: 1.5;">{media_co2:.2f} ppm</p>'
             f'</div>',
@@ -340,7 +340,7 @@ def enviar_email_diario():
     
         # Modificando a cor da mensagem de sucesso
         st.markdown(
-            '<p style="font-size: 18px; color: #FFA500; font-weight: bold; text-align: center;">Email enviado com sucesso!</p>',
+            '<p style="font-size: 18px; color: #74C940; font-weight: bold; text-align: center;">Email enviado com sucesso!</p>',
             unsafe_allow_html=True
          )
     except Exception as e:
